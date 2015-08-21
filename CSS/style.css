@@ -1,0 +1,37 @@
+/********common style******/
+body,ul,ol,p,h1,h2,h3,h4,h5,h6{
+	margin: 0;padding: 0;font:12px normal "微软雅黑";
+}
+ul{list-style: none;}
+a{text-decoration: none;color: #000;}
+#header,#banner,#contenr,#footer{width: 1000px;margin: 0 auto;}
+body{
+	background-image: url("../IMAGES/body_bg.gif");
+	background-repeat: repeat-x;
+}
+.left{float: left;}
+.right{float: right;}
+/********header style******/
+/***企业logo信息***/
+.logo{height: 88px;}
+.logo span{padding-top: 5px;}
+.logo .phone{font: 28px normal sans-serif;color: #882a02;padding-top: 55px;}
+/***导航栏***/
+.nav{
+	background-image : url("../IMAGES/header_bg.gif");
+	background-repeat: repeat-x;
+	height: 47px;
+}
+.nav li{float: left;margin-left: 50px;line-height: 47px;}
+.nav a{font:16px bold "微软雅黑";color: #fffff3;*cl}
+.nav a:hover{margin-left: -26px;margin-top: 8px; display: block;width: 90px; height: 30px;text-align: center;line-height: 30px; border-radius: 15px;background-color: #fff; color: #882a02;}/**使用js将a标签背景改变**/
+/*******banner********/
+#banner{}
+.bannerLeft img{}
+.bannerRight{width: 320px;margin: 0 auto;}
+.bannerRight img{padding-top: 20px;}
+.carousel{height: 100px;}
+.carousel a{display:; width: 12px; height: 20px;}
+.carousel a:last{padding-left: 308px;}
+/********containr*********/
+
